@@ -1,0 +1,76 @@
+﻿
+
+
+body {
+    font-family: Verdana;
+    font-size: 20px;
+    background-image: url("../Content/Background.jpg");
+    background-size: cover;
+}
+#ProfileWrap {
+    background: black;
+    width: 900px;
+    height: 500px;
+    border-radius: 45px;
+    margin-top: 100px;
+    margin-left:550px;
+    color: white;
+}
+pre {
+    font-family: Verdana;
+    font-size: 16px;
+    color:white;
+}
+
+.SbmtBtn {
+    background: #f0ad4e none repeat scroll 0 0;
+    border-color: #f0ad4e;
+    color: #ffffff;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0;
+}
+.Button {
+    height: 50px;
+    position: relative;
+    background: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.NavigateBtn {
+    font-family: Verdana;
+    font-size: 14px;
+    border-radius: 5px;
+    border:none;
+    margin-top:-30px;
+    width:auto;
+    margin-left:1750px;
+    padding-left: 75px;
+    color:white;
+    background:black;
+    text-align:center;
+    
+
+}
+
+#BtnDiv {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.NonMemberBtn {
+    font-family: Verdana;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: -10px;
+    width: 100px;
+    float:right;
+    margin-right:20px;   
+}

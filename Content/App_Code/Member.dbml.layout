@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Member">
+  <DataContextMoniker Name="/MemberDataContext" />
+  <nestedChildShapes>
+    <classShape Id="79f3e809-42fe-4823-8415-2c758b85d68c" absoluteBounds="0.75, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MemberDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc2d12ca-3ffe-459e-bb49-669a37278f49" absoluteBounds="0.765, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4148b25d-7caf-4c31-97db-fa3b86a9c885" absoluteBounds="3.5, 1, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MemberDataContext/Video" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d956be11-fc0d-478b-acd5-7b40d69814fe" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.28929768880208); (3.5 : 2.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MemberDataContext/User/User_Video" />
+      <nodes>
+        <classShapeMoniker Id="79f3e809-42fe-4823-8415-2c758b85d68c" />
+        <classShapeMoniker Id="4148b25d-7caf-4c31-97db-fa3b86a9c885" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
